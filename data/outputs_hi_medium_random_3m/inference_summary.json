@@ -1,0 +1,16 @@
+{
+  "bundle_path": "data/models/graphsage_focal/gnn_graphsage_bundle.pth",
+  "csv_path": "data/raw/HI-Medium_random_3m.csv",
+  "threshold": 0.46,
+  "has_ground_truth": true,
+  "total_accounts": 1155094,
+  "total_transactions": 3000029,
+  "suspicious_accounts_detected": 81973,
+  "laundering_groups_detected": 2689,
+  "inference_seconds": 47.750155448913574,
+  "outputs": {
+    "account_predictions_csv": "data\\outputs_hi_medium_random_3m\\account_predictions.csv",
+    "web_graph_json": "data\\outputs_hi_medium_random_3m\\web_graph.json",
+    "inference_summary_json": "data\\outputs_hi_medium_random_3m\\inference_summary.json"
+  }
+}

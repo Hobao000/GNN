@@ -1,0 +1,16 @@
+{
+  "bundle_path": "data/models/graphsage_focal/gnn_graphsage_bundle.pth",
+  "csv_path": "data/raw/HI-Small_Trans.csv",
+  "threshold": 0.46,
+  "has_ground_truth": true,
+  "total_accounts": 515088,
+  "total_transactions": 5078345,
+  "suspicious_accounts_detected": 2409,
+  "laundering_groups_detected": 369,
+  "inference_seconds": 38.2658007144928,
+  "outputs": {
+    "account_predictions_csv": "data\\outputs_hi_small\\account_predictions.csv",
+    "web_graph_json": "data\\outputs_hi_small\\web_graph.json",
+    "inference_summary_json": "data\\outputs_hi_small\\inference_summary.json"
+  }
+}

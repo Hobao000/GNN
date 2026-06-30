@@ -1,0 +1,20 @@
+{
+  "accounts_evaluated": 515088,
+  "positive_accounts": 6357,
+  "negative_accounts": 508731,
+  "accuracy": 0.9893222129034263,
+  "precision": 0.6778746367787464,
+  "recall": 0.2568821771275759,
+  "f1_score": 0.3725758612822268,
+  "pr_auc": 0.3392145404302518,
+  "roc_auc": 0.8976595996116166,
+  "balanced_accuracy": 0.6276784065176771,
+  "specificity": 0.9984746359077784,
+  "negative_predictive_value": 0.9907856573021325,
+  "confusion_matrix": {
+    "tn": 507955,
+    "fp": 776,
+    "fn": 4724,
+    "tp": 1633
+  }
+}
